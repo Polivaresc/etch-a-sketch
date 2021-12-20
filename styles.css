@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
 #container {
     display: grid;
     grid-template-columns: repeat(16, auto);
@@ -9,4 +16,8 @@
 
 .cell {
     background-color: royalblue;
+}
+
+.cell:hover {
+    background-color: indigo;
 }
