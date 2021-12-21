@@ -12,11 +12,3 @@ body {
     height: 100vh;
     width: 100vh;
 }
-
-.cell {
-    background-color: royalblue;
-}
-
-.cell:hover {
-    background-color: indigo;
-}
