@@ -1,12 +1,10 @@
 const container = document.querySelector("#container")
 
-let brightness = 1
-
 const newGridBtn = document.querySelector("#newGridBtn")
 newGridBtn.addEventListener("click", newGrid)
 
 function newGrid() {
-    brightness = 1
+    let brightness = 1
     container.innerHTML = ""
     const num = parseInt(prompt("Enter a number between 0 and 100: "))
     
